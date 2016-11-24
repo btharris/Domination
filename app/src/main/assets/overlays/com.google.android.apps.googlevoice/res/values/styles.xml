@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="gf_PageHeader">
+        <item name="android:background">#ff000000</item>
+    </style>
+    <style name="gf_SectionHeader">
+        <item name="android:background">#ff000000</item>
+    </style>
+    <style name="LightThemeSelector" parent="@*android:style/Theme" />
+    <style name="InCallTouchButton">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#ff000000</item>
+    </style>
+    <style name="InCallTouchButtonFaded">
+        <item name="android:background">#ff000000</item>
+    </style>
+    <style name="InCallTouchToggleButton">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#ff000000</item>
+    </style>
+    <style name="InCallTouchToggleButtonFaded">
+        <item name="android:background">#ff000000</item>
+    </style>
+    <style name="LightThemeNoActionBar" parent="@*android:style/Theme.NoTitleBar">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TranslucentThemeNoActionBar" parent="@*android:style/Theme.NoTitleBar">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="SettingsTheme" parent="@*android:style/Theme" />
+    <style name="DialogTheme" parent="@*android:style/Theme.Dialog" />
+</resources>
